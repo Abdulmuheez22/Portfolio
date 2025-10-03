@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    display: grid;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+#owo a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  cursor: pointer;
+  position: fixed;
+  right:  10px;
+  margin: 0;
+  z-index: 10000;
+}
+input{
+    color: white;
+    background: rgb(48, 47, 47);
+    padding: 0 10px;
+    width: 130%;
+    height: 40px;
+    border: none;
+    /* display: grid; */
+}
+textarea{
+        color: white;
+    background: rgb(48, 47, 47);
+    padding: 0 10px;
+    width: 130%;
+    height: 80px;
+    border: none;
+
+}
+.move{
+    /* justify-content: space-around; */
+    display: flex;
+    gap: 9.5%;
+    width: 130%;
+}
+.laff{
+    line-height: 70px;
+    margin-right: 10%;
+}
+#head, #mat{
+    width: 50%;
+    
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border-bottom: 3px solid rgb(8, 173, 8);
+    outline: none;
+}
+textarea::placeholder{
+    color: white;
+}
+textarea:focus{
+    border-bottom: 3px solid rgb(8, 173, 8);
+    outline: none;
+}
+.header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+
+}
+button{
+    color: white;
+    background-color:  rgb(39, 147, 73);
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+svg{
+    color: rgb(39, 147, 73);;
+}
+.line{
+    border-right: 2px solid rgb(46, 45, 45);
+    width: 2px;
+    height: 30px;
+}
+.hold1, .hold2, .hold3, .hold4, .hold5, .hold6{
+    display: flex;
+    gap: 30px;
+    margin: 6%;
+}
+.hold3 a, .hold4 a,.hold5 a, .hold6 a{
+    color: rgb(17, 164, 17);
+}
+.islam{
+     
+     /* gap: 10px;  */
+}
+samp a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 500px){
+body{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    display: grid;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+#owo a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  cursor: pointer;
+  position: fixed;
+  right:  10px;
+  margin: 0;
+  z-index: 10000;
+}
+input{
+    color: white;
+    background: rgb(48, 47, 47);
+    padding: 0 10px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    /* display: grid; */
+}
+textarea{
+        color: white;
+    background: rgb(48, 47, 47);
+    padding: 0 10px;
+    width: 100%;
+    height: 80px;
+    border: none;
+
+}
+.move{
+    /* justify-content: space-around; */
+    display: inline;
+    gap: 9.5%;
+    width: 100%;
+}
+.laff{
+    line-height: 70px;
+    padding: 0 3%;
+}
+#head, #mat{
+    width: 100%;
+    
+}
+input::placeholder{
+    color: white;
+}
+input:focus{
+    border-bottom: 3px solid rgb(8, 173, 8);
+    outline: none;
+}
+textarea::placeholder{
+    color: white;
+}
+textarea:focus{
+    border-bottom: 3px solid rgb(8, 173, 8);
+    outline: none;
+}
+.header{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 30vh;
+
+}
+button{
+    color: white;
+    background-color:  rgb(39, 147, 73);
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+svg{
+    color: rgb(39, 147, 73);
+    width: 20px;
+    height: 20px;
+}
+.line{
+    border-right: 2px solid rgb(46, 45, 45);
+    width: 2px;
+    height: 30px;
+}
+.hold1, .hold2, .hold3, .hold4, .hold5, .hold6{
+    display: flex;
+    gap: 30px;
+    margin: 6%;
+}
+.hold3 a, .hold4 a,.hold5 a, .hold6 a{
+    color: rgb(17, 164, 17);
+}
+.islam{
+     
+     /* margin: 0;
+     padding: 0; */
+}
+samp a{
+    font-size: 60px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-size: 1rem;
+}
+h5{
+    font-size: 0.5rem;
+}
+}

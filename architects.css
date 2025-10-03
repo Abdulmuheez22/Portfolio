@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    font-size: 25px;
+    padding: 10px;
+}
+.logo{
+    gap: 20px;
+    /* position: relative; */
+    /* padding: 20px; */
+    
+}
+.header{
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    color: rgb(65, 65, 93);
+     background: white;
+     box-shadow: 5px 5px 5px  ;
+     background-image: url(architect.jpg);
+
+}
+.me{
+    display: flex;
+    justify-content: center;
+    float: right;
+    gap: 30px;
+    margin: 25px 50px;
+
+}
+.me a{
+    text-decoration: none;
+    color: white;
+    
+}
+#btn{
+    display: none;
+}
+.hamburgerbtn{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+#gmi{
+    width: 100%;
+    /* height: 500px; */
+}
+#low{
+    padding: 30px;
+}
+#jet{
+    width: 70%;
+    margin-left: 10%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 100px;
+    margin: 90px;
+    flex-wrap: wrap;
+    
+}
+.gallery1{
+    background-image: url(workshop.jpg);
+    min-height: 220px;
+    background-size: 100%;
+    max-width: 700px;
+    
+    background-repeat: no-repeat;
+    
+}
+.when{
+    color: white;
+    width: 110px;
+    height: 30px;
+    background: black;
+    padding: 3px;
+}
+.gallery2{
+    background-image: url(house2\ \(1\).jpg);
+    min-height: 350px;
+    /* height: 550px; */
+    /* max-height: 600px; */
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+.how{
+    color: white;
+    width: 110px;
+    height: 30px;
+    background: black;
+    padding: 3px;
+}
+.gallery3{
+    background-image: url(house3\ \(1\).jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+.mad{
+        color: white;
+    width: 100px;
+    height: 30px;
+    background: black;
+    padding: 3px;
+}
+.gallery4{
+    background-image: url(house4.jpg);
+    min-height: 350px;
+     background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+.dad{
+        color: white;
+    width: 110px;
+    height: 30px;
+    background: black;
+    padding: 3px;
+}
+.gallery5{
+    background-image: url(house2\ \(1\).jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+.gallery6{
+    background-image: url(workshop.jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+.gallery7{
+    background-image: url(house4.jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+.gallery8{
+    background-image: url(house3\ \(1\).jpg);
+    min-height: 350px;
+    background-repeat: no-repeat;
+     background-size: 100%;
+    
+}
+#ter{
+    margin: 0 8px 20px;
+}
+#love{
+    width: 300px;
+}
+.love{
+    width: 20%;
+    border: none;
+    color: rgb(163, 161, 161);
+    height: 20px;
+    cursor: pointer;
+}
+.grid2{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    line-height: 25px;
+    grid-row-gap: 40px;
+    grid-column-gap: 90px;
+    margin: 5%;
+
+}
+#lip{
+    width: 90%;
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+h5{
+    color: rgb(139, 136, 133);
+}
+.roo{
+    line-height: 60px;
+    padding: 20px 30px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid rgb(139, 136, 133);
+    background: rgb(223, 221, 220);
+}
+footer{
+    width: 100%;
+    height: 70px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 700px){
+    .hamburgerbtn{
+    font-size: 40px;
+    background: none;
+    cursor: pointer;
+    display: block;
+    
+    /* margin: 0 800px; */
+
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    color: rgb(65, 65, 93);
+     background: white;
+     box-shadow: 5px 5px 5px  ;
+     background-image: url(architect.jpg);
+    
+   
+}
+.me{
+     top: 100%;
+    width: 100%;
+    margin: 0px 0px 10px;
+     position: absolute;
+        flex-direction: column;
+        display: none;
+}
+#btn{
+    display: none;
+}
+.me a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    left: 0;
+    padding: 20px;
+    background: blue;
+    color: white;
+    transition: 0.5s;
+    z-index: 10000;
+  
+  
+
+}
+.me a:hover{
+      border-bottom: 0.5px solid white;
+      transition: 0.5s;
+
+}
+#btn:checked ~ .me{
+    display: block;
+}
+.grid{
+    grid-template-columns: repeat(1, 1fr);
+}
+.grid2{
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;
+}
+.grid2 img{
+    width: 80%;
+
+}
+#map{
+    width: 10%;
+}
+
+    
+}
+@media (max-width: 10000px){
+    .grid2 img{
+    width: 80%;
+}
+#map{
+    width: 100%;
+}
+}
+
+@media (max-width: 480px){
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 10px;
+    margin: 9%;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    
+}
+.gallery1{
+    background-image: url(workshop.jpg);
+    /* min-height: 220px; */
+    /* background-size: 100%; */
+    -width: 700px;
+    
+    background-repeat: no-repeat;
+    
+}
+.grid2 img{
+    width: 80%;
+}
+#map{
+    width: 100%;
+}
+footer h3{
+    font-size: 0.8rem;
+}
+}

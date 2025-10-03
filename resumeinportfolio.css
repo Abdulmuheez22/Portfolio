@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 6% 0;
+    overflow-x: hidden;
+    justify-content: center;
+    background: rgb(10, 10, 10);
+    color: white;
+    display: grid;
+}
+#owo a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  cursor: pointer;
+  position: fixed;
+  right:  10px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10000;
+}
+span a{
+    font-size: 80px;
+    margin: 4% 48%;
+    text-decoration: none;
+    color: white;
+}
+#rat{
+    margin: 2% 40%;
+    flex-wrap: nowrap;
+}
+#ram{
+    margin: 4% 40%;
+    flex-wrap: nowrap;
+}
+/* .line{
+    width: 100px;
+    height: 3px;
+    color: white;
+} */
+ .a{
+    background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+  .b{
+  background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+  .c{
+  background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ 
+ #chat{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+ }
+ #hat{
+    font-size: 20px;
+    padding: 7px 0;
+ }
+ #ele{
+    margin: 10% 0;
+ }
+ .d{
+    background-color: rgb(35, 34, 34);
+   background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+.e{
+  background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ .f{
+    background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ .leg{
+    display: flex;
+    margin: 0 25%;
+    gap: 60px;
+    
+ }
+ #three{
+    margin: 7% 25%;
+ }
+ #four{
+    margin: 3% 25%;
+ }
+ .skil1{
+    width: 500px;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil1 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: me 2s forwards;
+ }
+ @keyframes me{
+    to{
+        width: 95%;
+    }
+ }
+ .cover1{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .cover2{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .cover3{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .smart{
+    padding: 0 40%;
+ }
+ .smart3{
+    padding: 0 45%;
+ }
+  .smart2{
+    padding: 0 43%;
+ }
+  .skil2{
+    width: 500px;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil2 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: lap 2s forwards;
+ }
+ @keyframes lap{
+    to{
+        width: 70%;
+    }
+ }
+  .skil3{
+    width: 500px;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil3 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: solo 2s forwards;
+ }
+ @keyframes solo{
+    to{
+        width: 45%;
+    }
+ }
+
+
+
+ @media (max-width: 480px){
+   body{
+    margin: 0%;
+    overflow-x: hidden;
+    justify-content: none;
+    background: rgb(10, 10, 10);
+    color: white;
+    display: block;
+}
+#rat{
+    margin: 10% 25%;
+    /* padding: 0 30%; */
+    flex-wrap: nowrap; 
+    
+}
+#ram{
+    margin: 10% 30%;
+    flex-wrap: nowrap; 
+} 
+.a{
+    background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78);
+ }
+  .b{
+ background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78); }
+  .c{
+   background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78);
+ }
+ 
+ #chat{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+ }
+ #hat{
+    font-size: 20px;
+    padding: 7px 0;
+ }
+ #ele{
+    margin: 5% 0;
+ }
+ .d{
+    background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78);
+ }
+.e{
+ background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78);
+ }
+ .f{
+    background-color: rgb(26, 25, 25);
+    height: 33%;
+    width: 80%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(21, 211, 122);
+    border-bottom: 3px solid rgb(19, 205, 78);
+ }
+ .leg{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 50px;
+    margin: 0%;
+   
+    
+ }
+ #three{
+    margin: 20% 0%;
+ }
+ #four{
+    margin: 3% 0%;
+ }
+ .skil1{
+    width: 70%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil1 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: me 2s forwards;
+ }
+ @keyframes me{
+    to{
+        width: 95%;
+    }
+ }
+ .cover1{
+    background: none;
+    line-height: 50px;
+    margin: 3% 0%;
+
+ }
+ .cover2{
+    background: none;
+    line-height: 50px;
+    margin: 3% 0%;
+
+ }
+ .cover3{
+    background: none;
+    line-height: 50px;
+    margin: 3% 0%;
+
+ }
+ .smart{
+    padding: 0 30%;
+ }
+ .smart3{
+    padding: 0 30%;
+ }
+  .smart2{
+    padding: 0 30%;
+ }
+  .skil2{
+    width: 70%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil2 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: lap 2s forwards;
+ }
+ @keyframes lap{
+    to{
+        width: 70%;
+    }
+ }
+  .skil3{
+    width: 70%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil3 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: solo 2s forwards;
+ }
+ @keyframes solo{
+    to{
+        width: 45%;
+    }
+ }
+ }
+ 
+
+
+ @media(max-width: 900px) and (min-width: 480px){
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 6% 0;
+    position: absolute;
+    padding: 0 10%;
+    overflow-x: hidden;
+    justify-content: center;
+    background: rgb(10, 10, 10);
+    color: white;
+    display: grid;
+}
+span a{
+    font-size: 80px;
+    margin: 4% 48%;
+    text-decoration: none;
+    color: white;
+}
+#rat{
+    margin: 2% 40%;
+    flex-wrap: nowrap;
+}
+#ram{
+    margin: 4% 40%;
+    flex-wrap: nowrap;
+}
+/* .line{
+    width: 100px;
+    height: 3px;
+    color: white;
+} */
+ .a{
+    background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+  .b{
+  background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+  .c{
+ background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ 
+ #chat{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px 0;
+ }
+ #hat{
+    font-size: 20px;
+    padding: 7px 0;
+ }
+ #ele{
+    margin: 10% 3%;
+ }
+ .d{
+     background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+.e{
+  background-color: rgb(28, 28, 28);
+    height: 31%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ .f{
+    background-color: rgb(28, 28, 28);
+    height: 30%;
+    width: 160%;
+    padding: 20px 19px;
+    border-left: 3px solid rgb(6, 139, 77);
+    border-bottom: 3px solid rgb(43, 36, 36);
+ }
+ .leg{
+    display: flex;
+    margin: 0 15%;
+    gap: 150px;
+    
+ }
+ #three{
+    margin: 7% 25%;
+ }
+ #four{
+    margin: 3% 25%;
+ }
+ .skil1{
+    width: 100%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil1 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: me 2s forwards;
+ }
+ @keyframes me{
+    to{
+        width: 95%;
+    }
+ }
+ .cover1{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .cover2{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .cover3{
+    background: none;
+    line-height: 50px;
+    margin: 3% 20%;
+
+ }
+ .smart{
+    padding: 0 40%;
+ }
+ .smart3{
+    padding: 0 45%;
+ }
+  .smart2{
+    padding: 0 43%;
+ }
+  .skil2{
+    width: 100%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil2 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: lap 2s forwards;
+ }
+ @keyframes lap{
+    to{
+        width: 70%;
+    }
+ }
+  .skil3{
+    width: 100%;
+    height: 5px;
+    background: white;
+    /* margin: 0 25%; */
+    position: relative;
+ }
+ .skil3 span{
+     width: 0%;
+    height: 5px;
+    background: green;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: solo 2s forwards;
+ }
+ @keyframes solo{
+    to{
+        width: 45%;
+    }
+ }
+ }
+ 
+
+ 

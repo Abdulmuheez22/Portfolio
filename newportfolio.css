@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    position: relative;
+     background: rgb(7, 7, 7);
+    color: white;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(23, 23, 23);
+    z-index: 10000;
+    animation: when 2s forwards;
+
+}
+@keyframes when{
+    100%{
+        visibility: hidden;
+    }
+}
+.semioverlay{
+       display: flex;
+       /* display: grid; */
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+} 
+.one1{
+
+    background: white;
+    width: 20px;
+    height: 20px;
+    z-index: inherit;
+    border-radius: 50%;
+    /* top: 0; */
+    left: 40%;
+    /* right: 0; */
+    /* bottom: 0; */
+    opacity: 0;
+    position: absolute;
+    animation: tion 1s infinite 0s;
+}
+@keyframes tion{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.one2{
+    color: white;
+    background: white;
+    width: 20px;
+    height: 20px;
+    z-index: inherit;
+    border-radius: 50%;
+     /* top: 0; */
+     left: 50%;
+     opacity: 0;
+    
+    position: absolute;
+    animation: ion 1s infinite 0.2s;
+}
+@keyframes ion{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.one3{
+    color: white;
+    background: white;
+    width: 20px;
+    height: 20px;
+    z-index: inherit;
+    border-radius: 50%;
+     /* top: 0; */
+     left: 60%;
+     opacity: 0;
+    
+    position: absolute;
+    animation: on 1s infinite 0.5s;
+}
+@keyframes on{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+a{
+    color: rgb(52, 248, 130);
+    text-decoration: none;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding: 0 2%;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    font-style: oblique;
+}
+#me{
+    display: none;
+}
+.hambuger{
+    display: none;
+}
+.dev{
+    font-size: 30px;
+    display: grid;
+    gap: 0;
+}
+.animation{
+    margin: 3% 10%;
+    font-size: 40px;
+    position: relative;
+}
+.animation::before{
+    content: "";
+    position: absolute;
+    font-size: 30px;
+    top: 5;
+    bottom: 0;
+    left: 59px;
+    right: 0;
+     display: inline-block;
+    overflow: hidden;
+    /* width: 3ch; */
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: typing 6s infinite steps(1234567890) , blink 3s infinite;
+
+}
+@keyframes typing{
+   0%{
+    content: "Graphics Designer";
+    width: 0ch;
+   }
+   15%{
+    width: 16ch;
+    content: "Graphics Designer";
+   }
+   30%{
+    width: 0ch;
+    content: "Graphics Designer";
+   }
+   35%{
+    width: 0ch;
+    content: "Website Designer";
+   }
+   50%{
+     width: 15ch;
+    content: "Website Designer";
+   }
+   60%{
+     width: 0ch;
+    content: "Website Designer";
+   }
+   65%{
+    width: 0ch;
+    content: "UI/UX Designer";
+   }
+   80%{
+    width: 14ch;
+    content: "UI/UX Designer";
+   }
+   100%{
+    width: 0ch;
+    content: "UI/UX Designer";
+   }
+}
+
+ .oja{
+    display: flex;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    gap: 0;
+    padding: 0;
+     margin-top: 50px;
+ }
+
+.oja svg{
+   margin-top: 80%;
+
+ } 
+ .dad{
+    margin-top: 80%;
+ }
+ .mad{
+    margin-top: 250%;
+ }
+ #computer{
+    width: 100px;
+    height: 10px;
+    color: silver;
+    background: none;
+    border: none;
+    font-size:20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+ }
+ .on{
+     background: white;
+    color: rgb(7, 7, 7);
+ }
+ /* .a{
+    color: black;
+ } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 600px){
+    .main-header{
+        position: fixed;
+        top: 0;
+        /* margin-bottom: 200px; */
+    }
+    .header{
+      position: absolute;
+      /* display: none; */
+      opacity: 0;
+      flex-direction: column;
+      justify-content: center;
+      width:  160px;
+      height: 40px;
+       top: 0;
+      gap: 0;
+      right: 0;
+      top: 150px;
+        /* margin-left: 40%; */
+        transform: translateY(-300px);
+        transition: 1s all;
+        margin-bottom: 700px;
+       
+    }
+    .header a{
+        padding: 17px 60px;
+        flex-direction: column;
+         display: block;
+        background-color: rgb(65, 63, 63);
+
+    }
+    #me:checked ~ .header{
+        /* display: block; */
+        opacity: 1;
+        transform: translatey(0);
+    }
+    .hambuger{
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    #come{
+        font-size: 30px;
+    }
+    .animation{
+        font-size: large;
+    }
+    .animation::before{
+    font-size: 30px;
+  
+}
+.animation{
+    margin: 3% 10%;
+    font-size: 40px;
+    position: relative;
+}
+.animation::before{
+    content: "";
+    position: absolute;
+    font-size: 30px;
+    top: 5;
+    bottom: 0;
+    left: 59px;
+    right: 0;
+     display: inline-block;
+    overflow: hidden;
+    /* width: 3ch; */
+    white-space: nowrap;
+    border-right: 3px solid white;
+    animation: typing 6s infinite steps(1234567890) , blink 3s infinite;
+
+}
+@keyframes typing{
+   0%{
+    content: "Graphics Designer";
+    width: 0ch;
+    font-size: 1.5rem;
+   }
+   15%{
+    width: 16ch;
+    content: "Graphics Designer";
+    font-size: 1.5rem;
+   }
+   30%{
+    width: 0ch;
+    content: "Graphics Designer";
+    font-size: 1.5rem;
+   }
+   35%{
+    width: 0ch;
+    content: "Website Designer";
+    font-size: 1.5rem;
+   }
+   50%{
+     width: 15ch;
+    content: "Website Designer";
+    font-size: 1.5rem;
+   }
+   60%{
+     width: 0ch;
+    content: "Website Designer";
+    font-size: 1.5rem;
+   }
+   65%{
+    width: 0ch;
+    content: "UI/UX Designer";
+    font-size: 1.5rem;
+   }
+   80%{
+    width: 14ch;
+    content: "UI/UX Designer";
+    font-size: 1.5rem;
+   }
+   100%{
+    width: 0ch;
+    content: "UI/UX Designer";
+    font-size: 1.5rem;
+   }
+}
+
+
+}

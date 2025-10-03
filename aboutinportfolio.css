@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(4, 4, 4);
+    color: white;
+    overflow-x: hidden;
+    display: grid;
+    justify-content: center;
+}
+#owo a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  cursor: pointer;
+  position: fixed;
+  right:  10px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 10000;
+}
+.rat{
+    /* align-items: center; */
+    position: relative;
+    justify-content: center;
+    padding: 7% 40%;
+}
+#fam{
+    margin: 3% 60px;
+}
+#farm{
+    margin: 3% 30px;
+}
+.line{
+    border-bottom: 3px solid rgb(240, 241, 240);
+    position: absolute;
+    width: 200px;
+    height: 5px;
+}
+#image{
+    border-radius: 50%;
+    margin: 0% 39%;
+}
+#ram{
+    color: rgb(16, 242, 16);
+    margin: 2% 0;
+}
+.write{
+    padding: 0 10%;
+}
+#required{
+    margin:  2% 0;
+}
+#point{
+    line-height: 28px;
+}
+.ham{
+    margin: 7% 0;
+    width: 100%;
+}
+#yam{
+    padding: 0 10%;
+    line-height: 35px;
+}
+#love{
+    display: flex;
+    justify-content: space-between;
+}
+#lack{
+    display: flex;
+    justify-content: space-between  ;
+}
+span{
+    color: white;
+    font-size: 16px;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+#ala{
+    margin: 3% 10%;
+}
+.a{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.b{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.c{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.d{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.e{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.f{
+    background-color: rgb(66, 66, 66);
+    width: 240px;
+    height: 170px;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+#san{
+    margin: 4% 10%;
+}
+.my{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-row-gap: 20px;
+    margin: 0 20%;
+}
+.g{
+     background-color: rgb(66, 66, 66);
+    width: 320px;
+    height: 300px;
+    line-height: 30px;
+    padding: 10px 20px;;
+}
+.h{
+    background-color: rgb(66, 66, 66);
+    width: 320px;
+    height: 300px;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+.go{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     margin: 0 10%;
+}
+#no{
+    margin: 6% 10%;
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+    body{
+        align-items: center;
+        justify-content: center;
+    }
+    #owo{
+        margin: 0px;
+    }
+   .rat{
+    display: grid;
+    margin: 10% 0;
+    padding: 0;
+}
+#fam{
+    margin: 3% 60px;
+}
+#farm{
+    margin: 3% 30px;
+}
+.line{
+    border-bottom: 3px solid rgb(240, 241, 240);
+    /* position: fixed; */
+    top: 90px;
+    margin: 4% 22%;
+    width: 200px;
+    height: 2px;
+}
+#image{
+    margin: 6% 50px;
+}
+.line{
+    display: none;
+}
+#ram{
+    color: rgb(9, 155, 9);
+    margin: 7% 2%;
+    font-size: 25px;
+}
+
+.write{
+    padding: 5%;
+}
+#required{
+    margin:  2% 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+#point{
+    line-height: 28px;
+    color: rgb(208, 205, 205);
+}
+#yam h2{
+    word-spacing: 20px;
+}
+.ham{
+    margin: 7% 0;
+    width: 100%;
+}
+
+#yam{
+    padding: 0;
+    line-height: 35px;
+}
+
+span a{
+    color: white;
+    text-decoration: none;
+    margin: 20% -50%;
+    font-size: 40px;
+}
+#yam h2 a{
+    font-size: 16px;
+    color: green;
+}
+h2{
+    font-size: 1rem;
+}
+#ala{
+    margin: 10% 0;
+}
+.a{
+    background-color: rgb(66, 66, 66);
+   width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.b{
+    background-color: rgb(66, 66, 66);
+    width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.c{
+    background-color: rgb(66, 66, 66);
+    width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.d{
+    background-color: rgb(66, 66, 66);
+    width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.e{
+    background-color: rgb(66, 66, 66);
+    width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+.f{
+    background-color: rgb(66, 66, 66);
+    width: 90%;
+    height: 170px;
+    margin: 0 3%;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(10, 206, 85);
+}
+#san{
+    margin: 10% 0;
+}
+.my{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    grid-row-gap: 30px;
+    margin: 7% 0%;
+    padding: 0 -5%;
+}
+.g{
+     background-color: rgb(66, 66, 66);
+      width: 80%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+.h{
+    background-color: rgb(66, 66, 66);
+    width: 80%;
+    height: 100%;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+.go{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 30px;
+     margin: 6% 0;
+}
+#no{
+    margin: 6% 0;
+}
+#love{
+   display: block
+}
+#lack{
+   display: block;
+}
+span{
+    color: white;
+    font-size: 16px;
+}
+h2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+
+}
